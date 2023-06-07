@@ -5,10 +5,10 @@ C12832 lcd(p5, p7, p6, p8, p11);
 DigitalIn button(p10);
 AnalogIn potentiometer(p20);
 
-DigitalOut led1(p22);
-DigitalOut led2(p23);
-DigitalOut led3(p24);
-DigitalOut led4(p25);
+DigitalOut led1(p5); //left
+DigitalOut led2(p6); //bottom
+DigitalOut led3(p7); //top
+DigitalOut led4(p8); //right
 
 int main()
 {
